@@ -1,18 +1,22 @@
 #!/bin/bash
 
 main() {
-	echo "Escolha uma opção: "
-	echo "1 - Limpar a lixeira"
-	echo "2 - Listar arquivos da lixeira"
-	read option
-	case $option in
-	"1")
-	clear trash-path
-	;;
-	"2")
-	list
-	;;
-esac
+	while [ "$option" != "3" ]
+	do
+	  	echo "Escolha uma opção: "
+		echo "1 - Listar arquivos da lixeira"
+		echo "2 - Limpar a lixeira"
+		echo "3 - Sair da aplicacao"
+		read option
+		case $option in
+		"1")
+		list
+		;;
+		"2")
+		clear trash-path
+		;;
+		esac
+	done
 }
 
 clear() {
