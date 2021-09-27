@@ -1,0 +1,10 @@
+{
+  "data":{
+    "name": "config json file",
+    "key": "value",
+    "aws":{
+      "aws_access_key_id": "current_key",
+      "aws_secret_access_key": "current_secret"
+    }
+  }
+}
