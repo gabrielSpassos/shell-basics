@@ -9,7 +9,7 @@ if [ $# -gt 0 ]; then
   VERIFY_ENV=$1
 fi
 
-echo "Env to search $VERIFY_ENV on file $FILE"
+echo "Searching on $FILE, if is with env: $VERIFY_ENV"
 
 while IFS='=' read -r key value
 do
