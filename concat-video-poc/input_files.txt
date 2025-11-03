@@ -1,0 +1,2 @@
+file '/home/$User$/Documentos/video1.mp4'
+file '/home/$user$/Documentos/video2.mp4'
